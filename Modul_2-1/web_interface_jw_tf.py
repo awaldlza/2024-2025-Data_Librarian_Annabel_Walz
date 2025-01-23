@@ -13,7 +13,7 @@ DATA_PATH =  os.getcwd() + "/jw_index_mult/jw_publications.pkl"
 
 def init():
     index = pt.IndexFactory.of(INDEX_PATH)
-    st.session_state["engine"] = pt.terrier.Retriever(index, wmodel="TF_IDF")
+    st.session_state["engine"] = pt.terrier.Retriever(index, wmodel="Tf")
     st.session_state["data"] = pickle.load(open(DATA_PATH, "rb"))
 
 def search(query):

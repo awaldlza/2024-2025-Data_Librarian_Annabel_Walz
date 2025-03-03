@@ -2,7 +2,12 @@
 Modul_1/*.csv
 Modul_1/*.json
 Modul_1/Datenanalyse_Seattle_Library_v*
-Modul_2-1/jw_index_mult
+Modul_2-1/*
 Modul_2-2*
+Modul_2-1/module_2_1.pynb
 *spielwiese*
 Modul_3/anaconda*
+Modul_3/data*
+Modul_3/images*
+Modul_3/notebooks*
+
